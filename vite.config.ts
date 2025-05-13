@@ -6,5 +6,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/REPO_NAME/',
+  base: '/EnglishB2_Diego/',
 });
