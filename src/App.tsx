@@ -9,7 +9,7 @@ import WeekOnePage from './pages/WeekOnePage';
 
 function App() {
   return (
-    <Router basename="/English2_Diego">
+    <Router basename="/EnglishB2_Diego">
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
