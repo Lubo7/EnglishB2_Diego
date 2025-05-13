@@ -12,7 +12,7 @@ function App() {
     <Router basename="/English2_Diego">
       <Layout>
         <Routes>
-          //<Route path="/" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/week-one" element={<WeekOnePage />} />
           <Route path="/week-two" element={<WeekTwoPage />} />
           <Route path="/resources" element={<ResourcesPage />} />
