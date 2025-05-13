@@ -9,7 +9,7 @@ import AboutPage from './pages/AboutPage';
 
 function App() {
   return (
-    <Router basename="/English_Diego">
+    <Router basename="/English2_Diego">
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
