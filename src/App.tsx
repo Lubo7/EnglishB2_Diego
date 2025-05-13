@@ -1,6 +1,6 @@
 //import React from 'react';
-//import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-//import Layout from './components/Layout';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
 //import HomePage from './pages/HomePage';
 //import WeekOnePage from './pages/WeekOnePage';
 //import WeekTwoPage from './pages/WeekTwoPage';
@@ -28,10 +28,14 @@
 
 function App() {
   return (
+    <Router basename="/EnglishB2_Diego">
+    <Layout>
     <div>
-      <h1>Test: Application Root</h1>
-      <p>If you see this, App.tsx is rendering.</p>
+      <h1>Test: Layout is rendering</h1>
+      <p>If you see this, App.tsx with Router and Layout is rendering.</p>
     </div>
+    </Layout>
+    </Router>
   );
 }
 export default App;
