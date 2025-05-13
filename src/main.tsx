@@ -17,7 +17,7 @@ import './index.css';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.tsx'; // This will be the super simplified App
-// import { ProgressProvider } from './components/ProgressContext.tsx'; // Comment out for now
+import { ProgressProvider } from './components/ProgressContext.tsx'; // Comment out for now
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
