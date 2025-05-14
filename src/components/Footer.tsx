@@ -15,6 +15,7 @@ const Footer: React.FC = () => {
               © {new Date().getFullYear()} B2 English Prep. All rights reserved.
             </p>
           </div>
+          {/*
           <div className="mt-4 md:mt-0 flex space-x-4">
             <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors">
               <span className="sr-only">Twitter</span>
@@ -25,6 +26,7 @@ const Footer: React.FC = () => {
               <Github className="h-5 w-5" />
             </a>
           </div>
+          */}
         </div>
       </div>
     </footer>
